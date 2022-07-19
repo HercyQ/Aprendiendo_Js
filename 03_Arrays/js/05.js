@@ -30,4 +30,4 @@ fruta.pop(); //elimina el ultimo elemento
 fruta.shift(); //elimina el primer elemento
 
 fruta.splice(2, 1); // elimina el elemento en la posicion 2, 1 solo apartde de el
-console.log(fruta); 
+
