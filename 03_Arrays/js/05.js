@@ -31,3 +31,6 @@ fruta.shift(); //elimina el primer elemento
 
 fruta.splice(2, 1); // elimina el elemento en la posicion 2, 1 solo apartde de el
 
+//Rest operator o spred operator
+const nuevoArreglo = ['papaya', ...fruta];
+console.log(nuevoArreglo);
