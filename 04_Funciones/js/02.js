@@ -7,7 +7,7 @@ const reproductor = {
     pausar: function () {
         console.log('Pausando...');
     },
-    crearPlaylist: function() {
+    crearPlaylist: function(nombre) {
         console.log(`Creando la playlist: ${nombre}`);
     }
 }
